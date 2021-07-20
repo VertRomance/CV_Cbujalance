@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+main, body, html{
+    height:80vh;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    height: 13%;
+    width:100%; 
+    position: fixed;
+    z-index: 2; 
+}
+.cont_header{
+    height:9vh;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    margin:auto;   
+    top:0;
+    
+}
+.nav-link, .navbar-brand, .poste{
+    color: whitesmoke!important;
+}
+.navbar{
+    width:80%;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-thumbnail{
+    width: 20%;
+    max-width: 6em !important;
+    height:7.7em !important;
+}
+
+.poste{
+    padding-top: 5px;
+    padding-bottom: 9px;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+}
+/* FIN PAGE ENTETE */
+.titre{     
+    color:whitesmoke;
+    font-weight: bold;  
+}
+.titre_page{
+    font-size: 1.5em; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: space-between;
+    display: flex;
+}
+
+#section1, #section3, #section5{   
+    background-color: #ebc8ab;
+    height: 53em;
+}
+#section2, #section4{   
+    background-color: #4c6a68;
+    height: 53em;
+    color:whitesmoke !important;
+}
+.section_droite{
+    font-size: 1em;
+    margin: auto;
+    width: 45%;
+    text-align: left;
+    padding-bottom: 2em;
+}
+.section_gauche{
+    width: 45%;
+    margin: auto;
+    margin-left: 3em;
+
+}
+.titre_paraph{
+    font-size: 1em;   
+    padding-top: 2em;
+    justify-content: space-between;
+    padding-bottom: 2em;
+    text-decoration: underline; 
+}
+/* FIN MAIN - CODE COMMUN */
+.cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mot_accueil{
+    flex-wrap: wrap;
+    color: black;
+    font:bold;
+    font: italic 1.2em "Fira Sans", serif;
+    line-height: 2.8em;
+}
+/* FIN PAGE BIENVENUE */
+
+ol, ul {
+    padding-left: 1rem;
+}
+#carouselExampleFade, #button{
+    padding-right : 0 !important;
+}
+.carousel-item{
+    width: 96%;
+    height: 90%;
+    background-size: cover;
+}
+/* FIN PAGE QUI SUIS-JE? */
+
+.titres{
+    align-content: center;
+}
+/* FIN PAGE FORMATIONS */
+#section4{   
+    background-color: #4c6a68;
+    height: 55em;
+    color:whitesmoke !important;
+}
+/* FIN PAGE EXPERIENCES */
+.langage{
+    width: 150px;
+}
+.langage ul{
+    list-style-type: none;
+}
+.software{
+    color: #4c6a68;
+}
+
+/* FIN PAGE COMPETENCES */
+.avis, .contact{
+    text-align: center;
+}
+#avis_contact{   
+    background-color: whitesmoke;
+    height: 61em;
+    margin-top: 2em;
+}
+/* FIN PAGE CONTACT & AVIS*/
+
+footer{
+    height: 7vh;
+    width: 100%;
+    background-color:  rgb(49, 49, 49);
+    color:whitesmoke;
+    bottom: 0;
+    position: fixed;
+    z-index: 2; 
+}
+.coord{
+    display:grid;
+    margin: auto;
+    box-sizing: border-box;
+    grid-template-columns: 90% 5% 5%;
+    grid-template-rows: auto;
+    grid-template-areas: "adress LKN GH";
+    padding-left: 10px;
+}
+.coord img{
+    width:50%;
+    padding-right: 5px;
+    padding-top: 7px;
+}
+.adress{
+    grid-area:adress;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: auto;
+}
+.LKN{
+    grid-area:LKN;
+}
+.GH{
+    grid-area:GH;
+}
